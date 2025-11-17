@@ -44,6 +44,17 @@ nav a {
     color: black;
 }
 
+.cardtext {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 100px;
+    text-align: center;
+}
+
 .firstsection {
     display: flex;
 }
@@ -73,8 +84,8 @@ nav a {
     color: #1572D3;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 80px;
-    margin-left: 45%;
+    display: block;
+    margin: 80px auto 0 auto;
 }
 
 .secondsection h1 {
@@ -112,15 +123,67 @@ nav a {
     padding: 10px;
     background-color: #1572D3;
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 .carimage {
     margin-top: 00px;
 }
 
-.thirdsection {}
-
 .thirdsection button {
-    margin: 150px 600px;
+    display: block;
+    margin: 200px auto;
     color: #1572D3;
+}
+
+.card-group {
+    margin-top: 200px;
+    display: flex;
+}
+
+.fourthsection h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.fourthsection .button {
+    display: block;
+    margin: 200px auto;
+    padding: 5px;
+    color: #1572D3;
+}
+
+.fourthsection .button2 {
+    display: block;
+    margin: 50px auto;
+    padding: 5px;
+    color: #1572D3;
+}
+
+.card-body {
+    border-radius: 5px;
+}
+
+.card-body button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1572D3;
+}
+
+.fifthcards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button3 {
+    padding: 8px;
+    display: block;
+    margin: 200px auto;
+}
+
+.fifthsection h1 {
+    margin-bottom: 100px;
+    text-align: center;
 }
