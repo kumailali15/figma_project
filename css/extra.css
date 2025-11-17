@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+nav .logo img {
+    width: 100%;
+}
+
+nav .center {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .right button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1572D3;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.firstsection {
+    display: flex;
+}
+
+.firstsection .sectiontext {
+    margin: 50px 50px;
+}
+
+.firstsectionheading {
+    margin-bottom: 10px;
+}
+
+.firstsectionheading span {
+    color: #1572D3;
+}
+
+.firstsectiontext {
+    margin-bottom: 10px;
+}
+
+.sectionimage2 {
+    margin: 0px 80px;
+}
+
+.secondsection>button {
+    background-color: white;
+    color: #1572D3;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 45%;
+}
+
+.secondsection h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    gap: 350px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.box h3 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.brands {
+    margin-top: 80px;
+}
+
+.location {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 60px;
+    gap: 200px;
+}
+
+.location button {
+    padding: 10px;
+    background-color: #1572D3;
+    border-radius: 5px;
+}
+
+.carimage {
+    margin-top: 00px;
+}
+
+.thirdsection {}
+
+.thirdsection button {
+    margin: 150px 600px;
+    color: #1572D3;
+}
