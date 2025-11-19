@@ -12,7 +12,7 @@ nav {
 
 nav .logo {
     padding: 10px;
-    width: 120px;
+    width: 250px;
     height: 40px;
 }
 
@@ -264,4 +264,121 @@ footer button {
 
 .colortext {
     color: blue;
+}
+
+@media (max-width:1200px) {
+    nav {
+        margin: 30px;
+    }
+    .box {
+        gap: 150px;
+        margin-left: 30px;
+    }
+    .location {
+        gap: 100px;
+    }
+    .thirdsection button {
+        margin: 100px auto;
+    }
+}
+
+@media (max-width:992px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+    .center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+    .sectionimage1 img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .location {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .box {
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .brands img {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    .thirdsection button {
+        margin: 80px auto;
+    }
+    .carimage img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .cardtext {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+    .card-group {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .fifthcards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .sixth {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rightside img {
+        width: 60%;
+        margin-top: 40px;
+    }
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .center {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sectiontext {
+        margin: 20px;
+    }
+    .location div {
+        text-align: center;
+    }
+    .card-text {
+        text-align: center;
+        padding: 10px;
+    }
+    .leftside h1 {
+        font-size: 28px;
+    }
+    .rightside img {
+        width: 80%;
+    }
+    footer {
+        padding: 30px;
+    }
+    footer .footer-section {
+        margin: 10px 0;
+    }
 }
