@@ -187,3 +187,77 @@ nav a {
     margin-bottom: 100px;
     text-align: center;
 }
+
+footer {
+    background: #212529;
+    color: #fff;
+    padding: 50px;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    margin: 20px;
+}
+
+footer .footer-section h4 {
+    margin-bottom: 20px;
+}
+
+footer .footer-section a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer input[type="email"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footerimages img {
+    margin-top: 20px;
+    display: block;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+.item i {
+    font-size: 22px;
+}
+
+.sixth {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button4 {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
